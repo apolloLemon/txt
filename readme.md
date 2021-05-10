@@ -10,7 +10,12 @@ simply use `./txt.sh` or the `txt` alias for daily.txt: yyyymmdd.txt
 ### setup
 1. clone into homefolder OR get `txt.sh` into `~/txt/`
 2. in txt.sh: `line 2: TXTT=default_text_tool`
-
+3. in ~/.bash_aliases add: 
+```
+if [ -f ~/txt/.txt_aliases.sh ]; then
+    . ~/txt/.txt_aliases.sh
+fi
+```
 ---
 
 ### options
