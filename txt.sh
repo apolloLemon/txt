@@ -1,7 +1,7 @@
 #!/bin/bash
+TXTT=subl						#default TXTTool
 DATED=true
 FILE=""
-TXTT=subl						#default TXTTool
 while getopts l:L:N:hme:a:Mt: flag
 do
     case "${flag}" in
